@@ -82,6 +82,60 @@
 
                 I’m passionate about continuous learning, problem-solving, and staying up-to-date with modern web development practices.
             </div>
+
+
+
+            <div class="my-stack-section" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="stack-heading">MY STACK</h2>
+                <div class="stack-grid">
+                    <div class="stack-column">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>React</li>
+                            <li>Tailwind</li>
+                            <li>HTML, CSS, Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="stack-column">
+                        <h3>Fullstack</h3>
+                        <ul>
+                            <li>NextJS</li>
+                        </ul>
+                    </div>
+                    <div class="stack-column">
+                        <h3>Language</h3>
+                        <ul>
+
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="stack-column">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>NodeJS</li>
+                            <li>ExpressJS</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="stack-column">
+                    </div>
+                    <div class="stack-column others-column">
+                        <h3>Others</h3>
+                        <ul class="disabled-list">
+                            <li>Firebase</li>
+                            <li>Firestore</li>
+                            <li>Pocketbase</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+            
         </div>
         <div class="column col-right">
             <!-- Existing skills -->
@@ -318,6 +372,70 @@
     transition: 0.3s linear;
 }
 
+.my-stack-section {
+    background: transparent;
+    color: #fff;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.stack-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.stack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+}
+
+.stack-column h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.stack-column ul {
+    list-style: disc inside;
+    padding-left: 0;
+    margin: 0;
+}
+
+.stack-column li {
+    margin-bottom: 0.4rem;
+    color: #ccc;
+}
+
+.stack-column li::marker {
+    color: #fff;
+}
+
+/* Greyed-out "Others" section */
+.others-column h3 {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    color: #aaa;
+    font-weight: 600;
+}
+
+.disabled-list li {
+    background-color: rgba(255, 255, 255, 0.07);
+    color: #888;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    margin-bottom: 0.4rem;
+    list-style-type: disc;
+    list-style-position: inside;
+}
 
 </style>
 
